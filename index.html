@@ -1,0 +1,1449 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Zabor master</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Arsenal:400,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="icon" href="img/favicon.ico">
+</head>
+<body>
+
+    <header class="header" id="home">
+        <div class="header__bcg-white"></div>
+        <div class="header__bcg-z"></div>
+        <div class="header__top wrapper">
+            <div class="header__logo">
+                <a href="#">
+                    <img src="img/logo.svg" alt="logo">
+                </a>
+                <p>Строительство заборов под ключ</p>
+            </div>
+            <div class="header__contact">
+                <div class="contact__phone">
+                    <a href="#" class="phone__icon"></a>
+                    <div class="phone__text">
+                        <a href="tel:+78129182080" class="phone_number">+7 812 918 20 80</a>
+                        <p>до 21-00 без выходных</p>
+                    </div>
+                </div>
+                <div class="contact__location">
+                    <a href="#" class="location__icon"></a>
+                    <div class="location__text">
+                        <p>ул. Лисичанская, 6а</p>
+                        <span>Санкт-Петербург</span>
+                        <a href="#" class="location__drive">Схема проезда</a>
+                    </div>
+                </div>
+                <div class="contact__calendar">
+                    <a href="#" class="calendar__icon"></a>
+                    <div class="calendar__text">
+                        <p>Пн-Пт: 09.00-18.00</p>
+                        <span>Сб-Вс: Выходной</span>
+                    </div>
+                </div>
+            </div>
+            <div class="header__price">
+                <a href="#" data-remodal-target="header__price" class="button__hover">Рассчитать стоимость</a>
+            </div>
+        </div>
+        <div class="header__menus" id="navbar">
+            <div class="header__burger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="header__menu wrapper  header__menu-js">
+                <ul class="menu__list ">
+                    <li><a href="#home" class="active">Главная</a></li>
+                    <li><a href="#types">виды заборов</a></li>
+                    <li><a href="#calculate">калькулятор</a></li>
+                    <li><a href="#install">установка</a></li>
+                    <li><a href="#name1">название</a></li>
+                    <li><a href="#name2">название</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__title wrapper">
+            <h1>Строительство<br>
+                надежных <span>заборов</span>
+                из качественных материалов
+                с соблюдением сроков</h1>
+        </div>
+        <div class="header__discount wrapper">
+           <p>Наши заборы не падают, не наклоняются, не выдавливаются,
+               а красиво дополняют Ваш участок</p>
+            <ul class="discount__list">
+                <li>Без предоплаты</li>
+                <li>Гарантия 12 мес.</li>
+                <li>Выезд замерщика Бесплатно</li>
+            </ul>
+            <div class="discount__button">
+                <a href="#" data-remodal-target="discount">Получить скидку 7% <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="discount__arrow"></div>
+        </div>
+
+    </header>
+    <div class="fense wrapper" id="types">
+        <div class="fence__title">
+            <h2 class="title__page">Выберите забор, который Вас интересует:</h2>
+        </div>
+        <div class="fence__list">
+            <div class="fence__proflist fence__margin">
+                <div class="proflist__pictures">
+                    <a href="#"><img src="img/proflist.png" alt="proflist"></a>
+                </div>
+                <div class="proflist__text">
+                    <a href="#" class="fence__name">Забор из профлиста</a>
+                    <p class="fence__meters">до 150 метров/день</p>
+                </div>
+            </div>
+            <div class="fence__gitter fence__margin">
+                <div class="gitter__pictures">
+                    <a href="#"><img src="img/gitter.png" alt="proflist"></a>
+                </div>
+                <div class="gitter__text">
+                    <a href="#" class="fence__name">Забор из сетки Гиттер</a>
+                    <p  class="fence__meters">до 300 метров/день</p>
+                </div>
+            </div>
+            <div class="fence__metalic fence__margin">
+                <div class="metalic__pictures">
+                    <a href="#"><img src="img/metalic.png" alt="proflist"></a>
+                </div>
+                <div class="metalic__text">
+                    <a href="#" class="fence__name">Забор из металличес-
+                        кого штакетника</a>
+                    <p class="fence__meters">до 100 метров/день</p>
+                </div>
+            </div>
+            <div class="fence__rabica fence__margin">
+                <div class="rabica__pictures">
+                    <a href="#"><img src="img/rabica.png" alt="proflist"></a>
+                </div>
+                <div class="rabica__text">
+                    <a href="#" class="fence__name">Забор из сетки рабицы</a>
+                    <p  class="fence__meters">до 500 метров/день</p>
+                </div>
+            </div>
+            <div class="fence__wood fence__margin">
+                <div class="wood__pictures">
+                    <a href="#"><img src="img/wood.png" alt="proflist"></a>
+                </div>
+                <div class="wood__text">
+                    <a href="#" class="fence__name">Деревянный забор</a>
+                    <p  class="fence__meters">до 100 метров/день</p>
+                </div>
+            </div>
+            <div class="fence__combo fence__margin">
+                <div class="combo__pictures">
+                    <a href="#"><img src="img/combo.png" alt="proflist"></a>
+                </div>
+                <div class="combo__text">
+                    <a href="#" class="fence__name">Комбинированный забор</a>
+                    <p class="fence__meters">до 50 метров/день</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="calculate">
+        <div class="calculate">
+            <div class="calculate__wrapper wrapper">
+                <div class="calculate__title">
+                    <h2 class="title__page">
+                        Рассчитайте стоимость забора самостоятельно
+                    </h2>
+                    <p>Опрос займет не более 40 секунд</p>
+                </div>
+                <form id="form_calculate" action="#" method="post">
+                    <div class="calculate__blocks">
+                        <div class="calculate__paling">
+                            <div class="paling__title">
+                                <h2>1. Какой забор Вы хотите?</h2>
+                                <p>Осталось <span>10</span></p>
+                            </div>
+                            <div class="paling__list">
+                                <div class="paling__one paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling_one">
+                                        <span class="paling__name">Забор из профлиста</span>
+                                    </label>
+                                </div>
+                                <div class="paling__two paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling_two">
+                                        <span class="paling__name">Забор из сетки Гиттер</span>
+                                    </label>
+                                </div>
+                                <div class="paling__three paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling_three">
+                                        <span class="paling__name">Забор из металлическ- ого штакетника</span>
+                                    </label>
+                                </div>
+                                <div class="paling__four paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling_four">
+                                        <span class="paling__name">Забор из сетки рабицы</span>
+                                    </label>
+                                </div>
+                                <div class="paling__five paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling_five">
+                                        <span class="paling__name">Деревянный забор</span>
+                                    </label>
+                                </div>
+                                <div class="paling__six paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling_six">
+                                        <span class="paling__name">Комбинированный забор</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calculate__paling2">
+                            <div class="paling__title">
+                                <h2>2. Какой высоты будет забор?</h2>
+                                <p>Осталось <span>9</span></p>
+                            </div>
+                            <div class="paling__list">
+                                <div class="paling2__one paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling2_one">
+                                        <span class="paling__name">1,5</span>
+                                    </label>
+                                </div>
+                                <div class="paling2__two paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling2_two">
+                                        <span class="paling__name">1,8</span>
+                                    </label>
+                                </div>
+                                <div class="paling2__three paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling2_three">
+                                        <span class="paling__name">2</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calculate__paling3">
+                            <div class="paling__title">
+                                <h2>3. Предполагаемая длина забора?</h2>
+                                <p>Осталось <span>8</span></p>
+                            </div>
+                            <div class="palling3__blocks">
+                                <div class="paling__input">
+                                    <label>
+                                        <input type="number" class="number__input result" name="weight_paling">
+                                    </label>
+                                </div>
+                                <div class="paling__button3" data-current="2">
+                                    <span>Дальше</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calculate__paling4">
+                            <div class="paling__title">
+                                <h2>4. Каким образом планируется монтаж столбов?</h2>
+                                <p>Осталось <span>7</span></p>
+                            </div>
+                            <div class="paling__list">
+                                <div class="paling4__one paling__margin">
+                                    <div class="paling__img">
+                                        <a href="#" class="znak">?</a>
+                                    </div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling4_one">
+                                        <span class="paling__name">Забивной метод</span>
+                                    </label>
+                                </div>
+                                <div class="paling4__two paling__margin">
+                                    <div class="paling__img">
+                                        <a href="#" class="znak">?</a>
+                                    </div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling4_two">
+                                        <span class="paling__name">Метод бетонирования</span>
+                                    </label>
+                                </div>
+                                <div class="paling4__three paling__margin">
+                                    <div class="paling__img">
+                                        <a href="#" class="znak">?</a>
+                                    </div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling4_three">
+                                        <span class="paling__name">Метод бутования щебнем</span>
+                                    </label>
+                                </div>
+                                <div class="paling4__four paling__margin">
+                                    <div class="paling__img">
+                                        <a href="#" class="znak">?</a>
+                                    </div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling4_four">
+                                        <span class="paling__name">Установка на винтовые сваи</span>
+                                    </label>
+                                </div>
+                                <div class="paling4__five paling__margin">
+                                    <div class="paling__img">
+                                        <a href="#" class="znak">?</a>
+                                    </div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling4_five">
+                                        <span class="paling__name">Ленточный</span>
+                                    </label>
+                                </div>
+                                <div class="paling4__six paling__margin">
+                                    <div class="paling__img">
+                                        <a href="#" class="znak">?</a>
+                                    </div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling4_six">
+                                        <span class="paling__name">Не знаю, нужен совет</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calculate__paling5">
+                            <div class="paling__title">
+                                <h2>5. У Вас будут ворота?</h2>
+                                <p>Осталось <span>6</span></p>
+                            </div>
+                            <div class="paling__list">
+                                <div class="paling5__one paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling5_one">
+                                        <span class="paling__name">Ворота откатные</span>
+                                    </label>
+                                </div>
+                                <div class="paling5__two paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling5_two">
+                                        <span class="paling__name">Ворота распашные</span>
+                                    </label>
+                                </div>
+                                <div class="paling5__three paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling5_three">
+                                        <span class="paling__name">Нет</span>
+                                    </label>
+                                </div>
+                                <div class="paling5__four paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling5_four">
+                                        <span class="paling__name">Пока не решил</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calculate__paling6">
+                            <div class="paling__title">
+                                <h2>6. Вам нужна калитка?</h2>
+                                <p>Осталось <span>5</span></p>
+                            </div>
+                            <div class="paling__list">
+                                <div class="paling6__one paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling6_one">
+                                        <span class="paling__name">Ворота с калиткой</span>
+                                    </label>
+                                </div>
+                                <div class="paling6__two paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling6_two">
+                                        <span class="paling__name">Отдельная калитка</span>
+                                    </label>
+                                </div>
+                                <div class="paling6__three paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling6_three">
+                                        <span class="paling__name">Нет</span>
+                                    </label>
+                                </div>
+                                <div class="paling6__four paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling6_four">
+                                        <span class="paling__name">Пока не решил</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calculate__paling7">
+                            <div class="paling__title">
+                                <h2>7. Вам потребуется автоматический привод для ворот?</h2>
+                                <p>Осталось <span>4</span></p>
+                            </div>
+                            <div class="paling__list">
+                                <div class="paling7__one paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling7_one">
+                                        <span class="paling__name">Да</span>
+                                    </label>
+                                </div>
+                                <div class="paling7__two paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling7_two">
+                                        <span class="paling__name">Нет</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calculate__paling8">
+                            <div class="paling__title">
+                                <h2>8. Как далеко от города будет стройка?</h2>
+                                <p>Осталось <span>3</span></p>
+                            </div>
+                            <div class="paling__list">
+                                <div class="paling8__one paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling8_one">
+                                        <span class="paling__name">До 20 км от центра города</span>
+                                    </label>
+                                </div>
+                                <div class="paling8__two paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling8_two">
+                                        <span class="paling__name">До 100 км</span>
+                                    </label>
+                                </div>
+                                <div class="paling8__three paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling8_three">
+                                        <span class="paling__name">Более 100 км</span>
+                                    </label>
+                                </div>
+                                <div class="paling8__four paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling8_four">
+                                        <span class="paling__name">Пока нет участка</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calculate__paling9">
+                            <div class="paling__title">
+                                <h2>9. На какое время строительства вы рассчитываете?</h2>
+                                <p>Осталось <span>2</span></p>
+                            </div>
+                            <div class="paling__list">
+                                <div class="paling9__one paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling9_one">
+                                        <span class="paling__name">Просто мечтаю</span>
+                                    </label>
+                                </div>
+                                <div class="paling9__two paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling9_two">
+                                        <span class="paling__name">Как только сойдет снег</span>
+                                    </label>
+                                </div>
+                                <div class="paling9__three paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling9_three">
+                                        <span class="paling__name">В этом сезоне</span>
+                                    </label>
+                                </div>
+                                <div class="paling9__four paling__margin">
+                                    <div class="paling__img"></div>
+                                    <label>
+                                        <input type="radio" name="paling" value="paling9_four">
+                                        <span class="paling__name">Ищу где подешевле</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calculate__paling10">
+                            <div class="paling__title">
+                                <h2>10. Расчёт готов! Оставьте Ваши контакты. За Вашим номером закрепляется скидка до 10%!</h2>
+                                <p>Осталось <span>1</span></p>
+                            </div>
+                            <div class="palling10__blocks">
+                                <div class="paling__input10">
+                                    <label>
+                                        <input type="text" class="phone__input10 result phone" name="phone_paling" placeholder="+7 (___) ___-__-__">
+                                    </label>
+                                    <label>
+                                        <input type="text" class="mail__input10" name="mail_paling" placeholder="Email (для ответа)">
+                                    </label>
+                                </div>
+                                <div class="paling__button10" data-current="2">
+                                    <span>Получить расчет</span><i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="notcosts">
+            <div class="notcosts__wrapper wrapper">
+                <div class="notcosts__title">
+                    <h2 class="title__page">
+                        Никаких дополнительных расходов
+                    </h2>
+                    <p>Наши цены фиксированы и не меняются после согласования сметы и выезда замерщика.
+                        Вызвать замерщика на участок Бесплатно</p>
+                </div>
+                <div class="notcosts__call button__page">
+                    <a href="#" data-remodal-target="call">Вызвать замерщика <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="notcost__tape"></div>
+            </div>
+        </div>
+        <div class="install">
+            <div class="install_wrapper wrapper">
+                <div class="install__title">
+                    <h2 class="title__page">
+                        Где мы можем установить забор
+                    </h2>
+                    <p>Работаем с частными лицами и юридическими организациями.</p>
+                </div>
+                <div class="install__list">
+                    <div class="install__item ">
+                        <div class="install__item-one install__item-block">
+                            <div class="install__item-hover">
+                                <a href="#"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a href="#" class="install__name">Для частных домов и дач</a>
+                    </div>
+                    <div class="install__item ">
+                        <div class="install__item-two install__item-block">
+                            <div class="install__item-hover">
+                                <a href="#"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a href="#" class="install__name">Для коттеджных поселков</a>
+                    </div>
+                    <div class="install__item ">
+                        <div class="install__item-three install__item-block">
+                            <div class="install__item-hover">
+                                <a href="#"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a href="#" class="install__name">Для турбаз и пансионатов</a>
+                    </div>
+                    <div class="install__item ">
+                        <div class="install__item-four install__item-block">
+                            <div class="install__item-hover">
+                                <a href="#"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a href="#" class="install__name">Для кафе и ресторанов</a>
+                    </div>
+                    <div class="install__item ">
+                        <div class="install__item-five install__item-block">
+                            <div class="install__item-hover">
+                                <a href="#"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a href="#" class="install__name">Для спортивных площадок</a>
+                    </div>
+                    <div class="install__item ">
+                        <div class="install__item-six install__item-block">
+                            <div class="install__item-hover">
+                                <a href="#"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a href="#" class="install__name">Для промышленных помещений</a>
+                    </div>
+                    <div class="install__item ">
+                        <div class="install__item-seven install__item-block">
+                            <div class="install__item-hover">
+                                <a href="#"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a href="#" class="install__name">Для парковок и офисов</a>
+                    </div>
+                    <div class="install__item ">
+                        <div class="install__item-eight install__item-block">
+                            <div class="install__item-hover">
+                                <a href="#"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a href="#" class="install__name">Для вольера питомцев</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="price wrapper">
+            <div class="price__title">
+                <h2 class="title__page">
+                    Цены на заборы
+                </h2>
+                <p>Устанавливаем заборы под ключ с гарантией 12 мес. - материал, доставка, монтаж</p>
+            </div>
+            <div class="price__list">
+                <div class="price__items">
+                    <div class="price__item-one price__item">
+                        <div class="price__item-title">
+                            <div class="price__item-many">
+                                <span>от 1 330 ₽</span>
+                            </div>
+                            <div class="price__item-popular">
+                                <span>Популярный</span>
+                            </div>
+                        </div>
+                        <div class="price__item-hover">
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <form action="#" class="price__form">
+                        <h2 class="price__form-title">Забор из профлиста</h2>
+                        <div class="price__colors">
+                            <span>Цвет:</span>
+                            <div class="colors__list colors__list-js">
+                                <div class="color__item color__item-1">
+                                    <input id="color1" type="radio" name="color1" value="color">
+                                    <label for="color1"></label>
+                                </div>
+                                <div class="color__item color__item-2">
+                                    <input id="color2" type="radio" name="color1" value="color">
+                                    <label for="color2"></label>
+                                </div>
+                                <div class="color__item color__item-3">
+                                    <input id="color3" type="radio" name="color1" value="color">
+                                    <label for="color3"></label>
+                                </div>
+                                <div class="color__item color__item-4">
+                                    <input id="color4" type="radio" name="color1" value="color">
+                                    <label for="color4"></label>
+                                </div>
+                                <div class="color__item color__item-5">
+                                    <input id="color5" type="radio" name="color1" value="color">
+                                    <label for="color5"></label>
+                                </div>
+                                <div class="color__item color__item-6">
+                                    <input id="color6" type="radio" name="color1" value="color">
+                                    <label for="color6"></label>
+                                </div>
+                                <div class="color__item color__item-7">
+                                    <input id="color7" type="radio" name="color1" value="color">
+                                    <label for="color7"></label>
+                                </div>
+                                <div class="color__item color__item-8">
+                                    <input id="color8" type="radio" name="color1" value="color">
+                                    <label for="color8"></label>
+                                </div>
+                                <div class="color__item color__item-9">
+                                    <input id="color9" type="radio" name="color1" value="color">
+                                    <label for="color9"></label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="price__height">
+                            <p>Высота 1,5 м: <span>1 330 руб./пог.м.</span></p>
+                            <p>Высота 1,8 м: <span>1 530 руб./пог.м.</span></p>
+                            <p>Высота 2 м: <span>1 600 руб./пог.м.</span></p>
+                        </div>
+                        <div class="price__line"></div>
+                        <div class="price__description">
+                            <h2>В цену включено: </h2>
+                            <p class="price__text-show "><span>Материал отделки: </span>Профнастил С8 оцинкованный с полимерным покрытием (окрашенный), толщина 0,4 мм., высота 1,5 м.;<br>
+                                <span>Каркас:</span> Столбы 60х60 с пластиковыми заглушками для защиты от коррозии, шаг столбов 2,50 м.; два ряда поперечин 40х20, Грунтовка каркаса;
+                                Дополнительно: Саморезы в цвет профнастила;
+                                <span>Установка:</span> Установка столбов; Сборка каркаса забора;
+                            </p>
+                            <a href="#" class="price__show price__show-js">Показать подробнее</a>
+                        </div>
+                        <button data-remodal-target="price_two" class="button__page price__button">
+                            Заказать расчет стоимости
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="price__items">
+                    <div class="price__item-two price__item">
+                        <div class="price__item-title">
+                            <div class="price__item-many">
+                                <span>от 1 330 ₽</span>
+                            </div>
+                            <div class="price__item-popular item__popular-three">
+                                <span>Скидка</span>
+                            </div>
+                        </div>
+                        <div class="price__item-hover">
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <form action="#" class="price__form">
+                        <h2 class="price__form-title">Забор из сетки Гиттрер</h2>
+                        <div class="price__colors">
+                            <span>Цвет:</span>
+                            <div class="colors__list">
+                                <div class="color__item color__item-7_2">
+                                    <input id="color7_2" type="radio" name="color1" value="color">
+                                    <label for="color7_2"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price__height">
+                            <p>Высота 1,5 м: <span class="strike">1330</span> <span>1 230 руб./пог.м.</span></p>
+                            <p>Высота 2 м: <span class="strike">1630</span> <span>1 530 руб./пог.м.</span></p>
+                            <p class="price__height_opacity">Высота 2 м: <span>1 600 руб./пог.м.</span></p>
+                        </div>
+                        <div class="price__line"></div>
+                        <div class="price__description">
+                            <h2>В цену включено: </h2>
+                            <p class="price__text-show "><span>Материал отделки: </span>Профнастил С8 оцинкованный с полимерным покрытием (окрашенный), толщина 0,4 мм., высота 1,5 м.;<br>
+                                <span>Каркас:</span> Столбы 60х60 с пластиковыми заглушками для защиты от коррозии, шаг столбов 2,50 м.; два ряда поперечин 40х20, Грунтовка каркаса;
+                                Дополнительно: Саморезы в цвет профнастила;
+                                <span>Установка:</span> Установка столбов; Сборка каркаса забора;
+                            </p>
+                            <a href="#" class="price__show price__show-js">Показать подробнее</a>
+                        </div>
+                        <button data-remodal-target="price_two" class="button__page price__button">
+                            Заказать расчет стоимости
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="price__items">
+                    <div class="price__item-three price__item">
+                        <div class="price__item-title">
+                            <div class="price__item-many">
+                                <span>от 1 330 ₽</span>
+                            </div>
+                            <div class="price__item-popular item__popular_opacity">
+                                <span>Скидка</span>
+                            </div>
+                        </div>
+                        <div class="price__item-hover">
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <form action="#" class="price__form">
+                        <h2 class="price__form-title">Забор из металлического штакетника</h2>
+                        <div class="price__colors">
+                            <span>Цвет:</span>
+                            <div class="colors__list colors__list-js">
+                                <div class="color__item color__item-1_3">
+                                    <input id="color1_3" type="radio" name="color1" value="color">
+                                    <label for="color1_3"></label>
+                                </div>
+                                <div class="color__item color__item-2_3">
+                                    <input id="color2_3" type="radio" name="color1" value="color">
+                                    <label for="color2_3"></label>
+                                </div>
+                                <div class="color__item color__item-6_3">
+                                    <input id="color3_3" type="radio" name="color1" value="color">
+                                    <label for="color3_3"></label>
+                                </div>
+                                <div class="color__item color__item-4_3">
+                                    <input id="color4_3" type="radio" name="color1" value="color">
+                                    <label for="color4_3"></label>
+                                </div>
+                                <div class="color__item color__item-5_3">
+                                    <input id="color5_3" type="radio" name="color1" value="color">
+                                    <label for="color5_3"></label>
+                                </div>
+                                <div class="color__item color__item-6_3">
+                                    <input id="color6_3" type="radio" name="color1" value="color">
+                                    <label for="color6_3"></label>
+                                </div>
+                                <div class="color__item color__item-7_3">
+                                    <input id="color7_3" type="radio" name="color1" value="color">
+                                    <label for="color7_3"></label>
+                                </div>
+                                <div class="color__item color__item-8_3">
+                                    <input id="color8_3" type="radio" name="color1" value="color">
+                                    <label for="color8_3"></label>
+                                </div>
+                                <div class="color__item color__item-9_3">
+                                    <input id="color9_3" type="radio" name="color1" value="color">
+                                    <label for="color9_3"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price__height">
+                            <p>Высота 1,5 м: <span>1 330 руб./пог.м.</span></p>
+                            <p>Высота 1,8 м: <span>1 530 руб./пог.м.</span></p>
+                            <p>Высота 2 м: <span>1 600 руб./пог.м.</span></p>
+                        </div>
+                        <div class="price__line"></div>
+                        <div class="price__description">
+                            <h2>В цену включено: </h2>
+                            <p class="price__text-show "><span>Материал отделки: </span>Профнастил С8 оцинкованный с полимерным покрытием (окрашенный), толщина 0,4 мм., высота 1,5 м.;<br>
+                                <span>Каркас:</span> Столбы 60х60 с пластиковыми заглушками для защиты от коррозии, шаг столбов 2,50 м.; два ряда поперечин 40х20, Грунтовка каркаса;
+                                Дополнительно: Саморезы в цвет профнастила;
+                                <span>Установка:</span> Установка столбов; Сборка каркаса забора;
+                            </p>
+                            <a href="#" class="price__show price__show-js">Показать подробнее</a>
+                        </div>
+                        <button data-remodal-target="price_two" class="button__page price__button">
+                            Заказать расчет стоимости
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="price__items">
+                    <div class="price__item-four price__item">
+                        <div class="price__item-title">
+                            <div class="price__item-many">
+                                <span>от 1 330 ₽</span>
+                            </div>
+                            <div class="price__item-popular item__popular_opacity">
+                                <span>Скидка</span>
+                            </div>
+                        </div>
+                        <div class="price__item-hover">
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <form action="#" class="price__form">
+                        <h2 class="price__form-title">Забор из сетки рабицы</h2>
+                        <div class="price__colors">
+                            <span>Цвет:</span>
+                            <div class="colors__list">
+                                <div class="color__item color__item-4_1">
+                                    <input id="color4_1" type="radio" name="color1" value="color">
+                                    <label for="color4_1"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price__height">
+                            <p>Высота 1,5 м: <span>1 330 руб./пог.м.</span></p>
+                            <p>Высота 1,8 м: <span>1 530 руб./пог.м.</span></p>
+                        </div>
+                        <div class="price__line"></div>
+                        <div class="price__description">
+                            <h2>В цену включено: </h2>
+                            <p class="price__text-show "><span>Материал отделки: </span>Профнастил С8 оцинкованный с полимерным покрытием (окрашенный), толщина 0,4 мм., высота 1,5 м.;<br>
+                                <span>Каркас:</span> Столбы 60х60 с пластиковыми заглушками для защиты от коррозии, шаг столбов 2,50 м.; два ряда поперечин 40х20, Грунтовка каркаса;
+                                Дополнительно: Саморезы в цвет профнастила;
+                                <span>Установка:</span> Установка столбов; Сборка каркаса забора;
+                            </p>
+                            <a href="#" class="price__show price__show-js">Показать подробнее</a>
+                        </div>
+                        <button data-remodal-target="price_two" class="button__page price__button">
+                            Заказать расчет стоимости
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <div class="price__items">
+                    <div class="price__item-five price__item">
+                        <div class="price__item-title">
+                            <div class="price__item-many">
+                                <span>от 1 330 ₽</span>
+                            </div>
+                            <div class="price__item-popular item__popular_opacity">
+                                <span>Скидка</span>
+                            </div>
+                        </div>
+                        <div class="price__item-hover">
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <form action="#" class="price__form">
+                        <h2 class="price__form-title">Деревянный забор</h2>
+                        <div class="price__colors">
+                            <span>Цвет:</span>
+                            <div class="colors__list colors__list-js">
+                                <div class="color__item color__item-1">
+                                    <input id="color1_5" type="radio" name="color1" value="color">
+                                    <label for="color1_5"></label>
+                                </div>
+                                <div class="color__item color__item-2">
+                                    <input id="color2_5" type="radio" name="color1" value="color">
+                                    <label for="color2_5"></label>
+                                </div>
+                                <div class="color__item color__item-6">
+                                    <input id="color3_5" type="radio" name="color1" value="color">
+                                    <label for="color3_5"></label>
+                                </div>
+                                <div class="color__item color__item-4">
+                                    <input id="color4_5" type="radio" name="color1" value="color">
+                                    <label for="color4_5"></label>
+                                </div>
+                                <div class="color__item color__item-5">
+                                    <input id="color5_5" type="radio" name="color1" value="color">
+                                    <label for="color5_5"></label>
+                                </div>
+                                <div class="color__item color__item-6">
+                                    <input id="color6_5" type="radio" name="color1" value="color">
+                                    <label for="color6_5"></label>
+                                </div>
+                                <div class="color__item color__item-7">
+                                    <input id="color7_5" type="radio" name="color1" value="color">
+                                    <label for="color7_5"></label>
+                                </div>
+                                <div class="color__item color__item-8">
+                                    <input id="color8_5" type="radio" name="color1" value="color">
+                                    <label for="color8_5"></label>
+                                </div>
+                                <div class="color__item color__item-9">
+                                    <input id="color9_5" type="radio" name="color1" value="color">
+                                    <label for="color9_5"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price__height">
+                            <p>Высота 1,5 м: <span>1 330 руб./пог.м.</span></p>
+                            <p>Высота 1,8 м: <span>1 530 руб./пог.м.</span></p>
+                        </div>
+                        <div class="price__line"></div>
+                        <div class="price__description">
+                            <h2>В цену включено: </h2>
+                            <p class="price__text-show "><span>Материал отделки: </span>Профнастил С8 оцинкованный с полимерным покрытием (окрашенный), толщина 0,4 мм., высота 1,5 м.;<br>
+                                <span>Каркас:</span> Столбы 60х60 с пластиковыми заглушками для защиты от коррозии, шаг столбов 2,50 м.; два ряда поперечин 40х20, Грунтовка каркаса;
+                                Дополнительно: Саморезы в цвет профнастила;
+                                <span>Установка:</span> Установка столбов; Сборка каркаса забора;
+                            </p>
+                            <a href="#" class="price__show price__show-js">Показать подробнее</a>
+                        </div>
+                        <button data-remodal-target="price_two" class="button__page price__button">
+                            Заказать расчет стоимости
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="price__items">
+                    <div class="price__item-six price__item">
+                        <div class="price__item-title">
+                            <div class="price__item-many">
+                                <span>от 1 330 ₽</span>
+                            </div>
+                            <div class="price__item-popular item__popular_opacity">
+                                <span>Скидка</span>
+                            </div>
+                        </div>
+                        <div class="price__item-hover">
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <form action="#" class="price__form">
+                        <h2 class="price__form-title">Комбинированый забор</h2>
+                        <div class="price__colors">
+                            <span>Цвет:</span>
+                            <div class="colors__list">
+                                <div class="color__item color__item-1_6">
+                                    <input id="color1_6" type="radio" name="color1" value="color">
+                                    <label for="color1_6"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price__height">
+                            <p>Высота 1,5 м: <span>1 330 руб./пог.м.</span></p>
+                            <p class="price__height_opacity">Высота 1,8 м: <span>1 530 руб./пог.м.</span></p>
+                        </div>
+                        <div class="price__line"></div>
+                        <div class="price__description price__description-js">
+                            <h2>В цену включено: </h2>
+                            <p class="price__text-show "><span>Материал отделки: </span>Профнастил С8 оцинкованный с полимерным покрытием (окрашенный), толщина 0,4 мм., высота 1,5 м.;<br>
+                                <span>Каркас:</span> Столбы 60х60 с пластиковыми заглушками для защиты от коррозии, шаг столбов 2,50 м.; два ряда поперечин 40х20, Грунтовка каркаса;
+                                Дополнительно: Саморезы в цвет профнастила;
+                                <span>Установка:</span> Установка столбов; Сборка каркаса забора;
+                            </p>
+                            <a href="#" class="price__show price__show-js">Показать подробнее</a>
+                        </div>
+                        <button data-remodal-target="price_two" class="button__page price__button">
+                            Заказать расчет стоимости
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="install">
+        <div class="advice">
+            <div class="advice__wrapper wrapper">
+                <div class="advice__title">
+                    <h2 class="title__page">
+                        Мы можем выполнить установку забора любой конфигурации, на участках
+                        с большим перепадом высот и на сложных грунтах длинной от 20 до 3000 м.
+                    </h2>
+                    <p>Все риски мы обсуждаем до начала работ. Для получения консультации звоните по телефону
+                        <a href="tel:+78129182080">+7 812 918 20 80</a> или оставьте заявку</p>
+                </div>
+                <div class="advice__call button__page">
+                    <a href="#" data-remodal-target="advice">Получить консультацию <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class=advice__tape"></div>
+            </div>
+            <div class="advice__fence"></div>
+        </div>
+        <div class="methods">
+            <div class="wrapper">
+                <div class="methods__title">
+                    <h2 class="title__page">
+                        Методы установки
+                    </h2>
+                    <p>До начала работ мы учитываем особенности грунта на участке, что обеспечивает качество работ и долговечность</p>
+                </div>
+                <div class="methods__list">
+                    <div class="methods__block methods__one">
+                        <div class="methods__img">
+                            <a href="#"><img src="img/method-1.png" alt="method-1"></a>
+                        </div>
+                        <div class="methods__text">
+                            <h2 class="methods___text-title">
+                                Забивной метод
+                            </h2>
+                            <p>Используется на легких грунтах,
+                                к примеру, мало-каменистом. Установка стандартных столбов в глубину 1,2 м. (если высота забора до 2 метров). Такой монтаж прост и быстр. Возможно бетонирование воротных и несущих столбов.</p>
+                        </div>
+                    </div>
+                    <div class="methods__block methods__two">
+                        <div class="methods__img">
+                            <a href="#"><img src="img/method-2.png" alt="method-1"></a>
+                        </div>
+                        <div class="methods__text">
+                            <h2 class="methods___text-title">
+                                Метод бетонирования
+                            </h2>
+                            <p>
+                                Применяется при больших нагрузках, воротные и несущие столбы бетонируются. Цена на забор в этом случае будет выше, но это гарантирует длительную эксплуатацию. Такие заборы часто применяются в местах, где наблюдаются сильные ветра.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="methods__block methods__three">
+                        <div class="methods__img">
+                            <a href="#"><img src="img/method-3.png" alt="method-1"></a>
+                        </div>
+                        <div class="methods__text">
+                            <h2 class="methods___text-title">
+                                Метод бутования щебнем
+                            </h2>
+                            <p>
+                                Используется на любых грунтах. Для этого подготавливается отверстие диаметром 200 мм на глубину минимум 1,2 м, куда устанавливается столб. Отверстие засыпается щебнем и трамбуется.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="methods__block methods__four">
+                        <div class="methods__img">
+                            <a href="#"><img src="img/method-4.png" alt="method-1"></a>
+                        </div>
+                        <div class="methods__text">
+                            <h2 class="methods___text-title">
+                                Установка на винтовые сваи
+                            </h2>
+                            <p>
+                                Такой метод установки подразумевает отсутсвие бетонирования, поскольку винтовая свая (опора) полностью заменяет бетонный раствор. Сваи можно монтировать отдельно или вместе с уже установленным в нее столбом (конструкция в виде винтового столба).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="method__info">
+                    Метод установки определяет наш специалист исходя из особенностей участка и грунта.
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div id="name1">
+        <div class="reviews">
+            <div class="wrapper">
+                <div class="review__title">
+                    <h2 class="title__page">
+                        Выполненные работы и отзывы наших клиентов
+                    </h2>
+                    <p>
+                        Мы установили более 10 000 км. заборов и получили более 1000 положительных отзывов за 10 лет работ
+                    </p>
+                </div>
+                <div class="review__gallery">
+                    <div class="gallery__big gallery__big-js">
+                        <div class="gallery__img">
+                            <img src="img/gallery-big.png" alt="gallery">
+                        </div>
+                        <div class="gallery__img">
+                            <img src="img/gallery-2.png" alt="gallery">
+                        </div>
+                        <div class="gallery__img">
+                            <img src="img/gallery-3.png" alt="gallery">
+                        </div>
+                        <div class="gallery__img">
+                            <img src="img/gallery-4.png" alt="gallery">
+                        </div>
+                        <div class="gallery__img">
+                            <img src="img/gallery-5.png" alt="gallery">
+                        </div>
+                        <div class="gallery__img">
+                            <img src="img/gallery-6.png" alt="gallery">
+                        </div>
+                        <div class="gallery__img">
+                            <img src="img/gallery-7.png" alt="gallery">
+                        </div>
+                        <div class="gallery__img">
+                            <img src="img/gallery-8.png" alt="gallery">
+                        </div>
+                        <div class="gallery__img">
+                            <img src="img/gallery-9.png" alt="gallery">
+                        </div>
+                    </div>
+                    <div class="gallery__small-js">
+                        <div data-trigger-slider="0" class="gallery__img">
+
+                        </div>
+                        <div data-trigger-slider="1" class="gallery__img">
+
+                        </div>
+                        <div data-trigger-slider="2" class="gallery__img">
+
+                        </div>
+                        <div data-trigger-slider="3" class="gallery__img">
+
+                        </div>
+                        <div data-trigger-slider="4" class="gallery__img">
+
+                        </div>
+                        <div data-trigger-slider="5" class="gallery__img">
+
+                        </div>
+                        <div data-trigger-slider="6" class="gallery__img">
+
+                        </div>
+                        <div data-trigger-slider="7" class="gallery__img">
+
+                        </div>
+                        <div data-trigger-slider="8" class="gallery__img">
+
+                        </div>
+                    </div>
+                    <div class="gallery__small">
+                        <img src="img/gallery-1.png" alt="gallery" onclick="$('.gallery__small-js div[data-trigger-slider=0]').trigger('click')">
+                        <img src="img/gallery-2.png" alt="gallery" onclick="$('.gallery__small-js div[data-trigger-slider=1]').trigger('click')">
+                        <img src="img/gallery-3.png" alt="gallery" onclick="$('.gallery__small-js div[data-trigger-slider=2]').trigger('click')">
+                        <img src="img/gallery-4.png" alt="gallery" onclick="$('.gallery__small-js div[data-trigger-slider=3]').trigger('click')">
+                        <img src="img/gallery-5.png" alt="gallery" onclick="$('.gallery__small-js div[data-trigger-slider=4]').trigger('click')">
+                        <img src="img/gallery-6.png" alt="gallery" onclick="$('.gallery__small-js div[data-trigger-slider=5]').trigger('click')">
+                        <img src="img/gallery-7.png" alt="gallery" onclick="$('.gallery__small-js div[data-trigger-slider=6]').trigger('click')">
+                        <img src="img/gallery-8.png" alt="gallery" onclick="$('.gallery__small-js div[data-trigger-slider=7]').trigger('click')">
+                        <img src="img/gallery-9.png" alt="gallery" onclick="$('.gallery__small-js div[data-trigger-slider=8]').trigger('click')">
+                    </div>
+                </div>
+                <div class="review__people">
+                    <div class="people__title">
+                        <h2>Отзывы</h2>
+                    </div>
+                    <div class="people__sliders peolple__sliders-js">
+                        <div class="people__slide-one">
+                            <div class="peole__slide-wrapper">
+                                <div class="people_slide-left">
+                                    <h2 class="people__slide-title">Татьяна</h2>
+                                    <span class="see__review clearfix">Посмотрите свои отзыва</span>
+                                    <p class="review__show">Zабор Мастер! Этим летом решили сделать забор из профнастила, знакомые уже делали забор в Мастеровит - остались довольны.
+                                        Также ориентировались на скорость выполнения, здесь нас все устроило! Для начала съездили в их офис и заключили договор,
+                                        менеджер рассказал как и чего. В итоге забор длиной 28 метров вышел 55 тысяч с доставкой. Внесли предоплату.
+                                    </p>
+                                </div>
+                                <div class="people_slide-right clearfix">
+                                    <a href="#" data-remodal-target="modal" class="review__pictures"><img src="img/review.png" alt="rewiew" ></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="people__slide-one">
+                            <div class="peole__slide-wrapper">
+                                <div class="people_slide-left">
+                                    <h2 class="people__slide-title">Татьяна</h2>
+                                    <span class="see__review clearfix">Посмотрите свои отзыва</span>
+                                    <p class="review__show">Zабор Мастер! Этим летом решили сделать забор из профнастила, знакомые уже делали забор в Мастеровит - остались довольны.
+                                        Также ориентировались на скорость выполнения, здесь нас все устроило! Для начала съездили в их офис и заключили договор,
+                                        менеджер рассказал как и чего. В итоге забор длиной 28 метров вышел 55 тысяч с доставкой. Внесли предоплату.
+
+                                </div>
+                                <div class="people_slide-right clearfix">
+                                    <a href="#" data-remodal-target="modal" class="review__pictures"><img src="img/review.png" alt="rewiew" ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="director">
+            <div class="director__wrapper wrapper">
+                <div class="director__title">
+                    <h2 class="title__page">
+                        Контроль качества осуществляется лично директором компании,
+                        что обеспечивает снижение брака в работе до 100%.
+                    </h2>
+                </div>
+                <div class="director__call button__page">
+                    <a href="#" data-remodal-target="director">Получить консультацию <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class=director__tape"></div>
+            </div>
+            <div class="director__fence"></div>
+        </div>
+    </div>
+   <div id="name2">
+       <div class="edge">
+           <div class="wrapper">
+               <div class="edge__title">
+                   <h2 class="title__page">
+                       Преимущества работы с нашей компанией
+                   </h2>
+               </div>
+               <div class="edge__list">
+                   <div class="edge__block">
+                       <div class="edge__icon edge__icon-1"></div>
+                       <div class="edge__description">
+                           <h2>Вызов замерщика Бесплатно</h2>
+                           <p>
+                               Если Вы не знаете сколько метров забора требуется для установки, то Вы можете вызвать специалиста,
+                               который проведет все необходимые замеры и рассчитает количество материалов
+                           </p>
+                       </div>
+                   </div>
+                   <div class="edge__block">
+                       <div class="edge__icon edge__icon-2"></div>
+                       <div class="edge__description">
+                           <h2>Цены фиксированы</h2>
+                           <p>
+                               От Вас не потребуется никаких дополнительных доплат. Стоимость работ фиксируется в договоре и не меняется
+                           </p>
+                       </div>
+                   </div>
+                   <div class="edge__block">
+                       <div class="edge__icon edge__icon-3"></div>
+                       <div class="edge__description">
+                           <h2>Грунт на участке</h2>
+                           <p>
+                               Мы уделяем этому особое внимание, поскольку это прямым образом влияете на качество
+                               работ и долговечность конструкции.  Наши заборы не падают, не ломаются и не перекашиваются!
+                           </p>
+                       </div>
+                   </div>
+                   <div class="edge__block">
+                       <div class="edge__icon edge__icon-4"></div>
+                       <div class="edge__description">
+                           <h2>Сроки работ</h2>
+                           <p>
+                               Сроки работ, цена и качество - это 3 кита, которые позволяют нашей компании динамично развиваться вместе с Вами
+                           </p>
+                       </div>
+                   </div>
+                   <div class="edge__block">
+                       <div class="edge__icon edge__icon-5"></div>
+                       <div class="edge__description">
+                           <h2>Качество материалов</h2>
+                           <p>
+                               Возможно, наша стоимость чуть выше, чем
+                               у конкурентов, но если Вы сравните используемые материалы, то сразу поймете разницу
+                           </p>
+                       </div>
+                   </div>
+                   <div class="edge__block">
+                       <div class="edge__icon edge__icon-6"></div>
+                       <div class="edge__description">
+                           <h2>Наши бригады</h2>
+                           <p>
+                               У нас работает 5 монтажных бригад с опытом более 10 лет. Опыт руководителя 16 лет
+                           </p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+    <footer class="footer">
+        <div class="footer__top wrapper">
+            <div class="footer__logo">
+                <a href="#">
+                    <img src="img/footer-logo.svg" alt="logo">
+                </a>
+                <p>Строительство заборов под ключ</p>
+            </div>
+            <div class="footer__contact">
+                <div class="contact__phone">
+                    <a href="#" class="phone__icon"></a>
+                    <div class="phone__text">
+                        <a href="tel:+78129182080" class="phone_number">+7 812 918 20 80</a>
+                        <p>до 21-00 без выходных</p>
+                    </div>
+                </div>
+                <div class="contact__location">
+                    <a href="#" class="location__icon"></a>
+                    <div class="location__text">
+                        <p>ул. Лисичанская, 6а</p>
+                        <span>Санкт-Петербург</span>
+                        <a href="#" class="location__drive">Схема проезда</a>
+                    </div>
+                </div>
+                <div class="contact__calendar">
+                    <a href="#" class="calendar__icon"></a>
+                    <div class="calendar__text-footer">
+                        <p>Пн-Пт: 09.00-18.00</p>
+                        <span>Сб-Вс: Выходной</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__price">
+                <a href="#" data-remodal-target="header__price">Рассчитать стоимость</a>
+            </div>
+        </div>
+        <nav class="header__menu wrapper ">
+            <ul class="menu__list ">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#"> виды заборов</a></li>
+                <li><a href="#">калькулятор</a></li>
+                <li> <a href="#">установка</a></li>
+                <li><a href="#">название</a></li>
+                <li><a href="#">название</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <div class="remodal" data-remodal-id="modal">
+    <button data-remodal-action="close" class="remodal-close"></button>
+        <img src="img/review.png" alt="rewiew" class="remodal-img">
+    <br />
+    </div>
+    <div class="remodal popup__one" data-remodal-id="header__price">
+        <div class="popup__price">
+            <div class="popup__price-title">
+                <h2>Расчет стоимости</h2>
+                <p>Оставьте свой телефон и мы ВАМ
+                    перезвоним и рассчитаем</p>
+            </div>
+            <form action="#" class="popup__price-form">
+                <input type="text" class="phone" placeholder="+7 (___) ___-__-__">
+                <button class="button__popup" type="submit">
+                    Рассчитать стоимость<i class="fas fa-arrow-right"></i>
+                </button>
+            </form>
+        </div>
+        <button data-remodal-action="close" class="remodal-close"></button>
+    </div>
+    <div class="remodal popup__discount" data-remodal-id="discount">
+        <div class="popup__discount">
+            <div class="popup__discount-title">
+                <h2>Скидка <span>7%</span></h2>
+                <p>Оставьте свой телефон и мы ВАМ
+                    перезвоним и рассчитаем</p>
+                <p class="promocode">Ваш промокод на скидку: <span>zm1206</span></p>
+            </div>
+            <form action="#" class="popup__discount-form">
+                <input type="text" class="phone" placeholder="+7 (___) ___-__-__">
+                <button class="button__popup" type="submit">
+                    Оставить заявку<i class="fas fa-arrow-right"></i>
+                </button>
+            </form>
+        </div>
+        <button data-remodal-action="close" class="remodal-close"></button>
+    </div>
+
+    <div class="remodal popup__call" data-remodal-id="call">
+        <div class="popup__call">
+            <div class="popup__call-title">
+                <h2>Вызов замерщика</h2>
+                <p>Оставьте свой телефон
+                    и мы ВАМ перезвоним </p>
+            </div>
+            <form action="#" class="popup__call-form">
+                <input type="text" class="phone" placeholder="+7 (___) ___-__-__">
+                <button class="button__popup" type="submit">
+                    Вызвать замерщика<i class="fas fa-arrow-right"></i>
+                </button>
+            </form>
+        </div>
+        <button data-remodal-action="close" class="remodal-close"></button>
+    </div>
+    <div class="remodal popup__one" data-remodal-id="advice">
+        <div class="popup__price">
+            <div class="popup__price-title">
+                <h2>Консультация</h2>
+                <p>Оставьте свой телефон и мы ВАМ
+                    перезвоним и рассчитаем</p>
+            </div>
+            <form action="#" class="popup__price-form">
+                <input type="text" class="phone" placeholder="+7 (___) ___-__-__">
+                <button class="button__popup" type="submit">
+                    Получить консультацию<i class="fas fa-arrow-right"></i>
+                </button>
+            </form>
+        </div>
+        <button data-remodal-action="close" class="remodal-close"></button>
+    </div>
+    <div class="remodal popup__pricetwo" data-remodal-id="price_two">
+        <div class="popup__pricetwo">
+            <div class="popup__pricetwo-title">
+                <h2>Оставить заявку</h2>
+                <p>Скидка 3%, если оставить
+                    заявку через сайт</p>
+            </div>
+            <form action="#" class="popup__pricetwo-form">
+                <input type="text" name="name" placeholder="Ваше имя">
+                <input type="text" class="phone" placeholder="+7 (___) ___-__-__">
+                <textarea name="pricetwo" placeholder="Сообщение"></textarea>
+                <button class="button__popup" type="submit">
+                    Оставить заявку<i class="fas fa-arrow-right"></i>
+                </button>
+            </form>
+        </div>
+        <button data-remodal-action="close" class="remodal-close"></button>
+    </div>
+
+    <div class="remodal popup__director" data-remodal-id="director">
+        <div class="popup__director">
+            <div class="popup__director-title">
+                <h2>Контроль качества</h2>
+                <p>Оставьте заявку и наш директор
+                    перезвонит вам лично</p>
+            </div>
+            <form action="#" class="popup__director-form">
+                <input type="text" name="name" placeholder="Name">
+                <input type="text" class="phone" placeholder="+7 (___) ___-__-__">
+                <button class="button__popup" type="submit">
+                    Связаться с директором<i class="fas fa-arrow-right"></i>
+                </button>
+            </form>
+        </div>
+        <button data-remodal-action="close" class="remodal-close"></button>
+    </div>
+    <div id="toTop">
+
+    </div>
+    <div id="toTop__form" class="form__totop">
+        <form action="#">
+            <input type="text" class="phone" id="phone" placeholder="+7 (___) ___-__-__">
+            <a href="#" class="form__totop-link">Заказать обратный <span>звонок</span> <i class="fas fa-arrow-right"></i></a>
+        </form>
+    </div>
+
+
+
+<script src="js/script.min.js"></script>
+</body>
+</html>
